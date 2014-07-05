@@ -1,0 +1,3 @@
+plot visual ray against low latitude gages for set1+2 and set1+2+3
+Herschel Best Slice
+send all data tab delimited

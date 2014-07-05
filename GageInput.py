@@ -1,0 +1,45 @@
+publish = open('gagelist.dat','a+')
+
+loop = 1
+length = 0
+
+
+for line in publish:
+    length +=1
+    element = line.split()
+while loop == 1:
+    #print "Last line: " +last
+    print "Number of entries: " +str(length)
+    print "Enter for each object:"
+    print "RA in Hours, Minutes, Seconds"
+    print "Polar Distance in Degrees, Minutes"
+    print "Number of Stars"
+    print "Number of Fields"
+    #publish.write("%s " % "RAH, RAM , RAS, PDD, PDM, STARS, FIELDS, DECD, DECM")
+    #publish.write("\n")
+    for i in range(length,10000):
+        print i
+        RAH = raw_input("RA H: ")
+        if RAH == 'exit':
+            print "Exiting..."
+            loop = 0
+            break
+        else:
+            RAM = raw_input("RA M: ")
+            RAS = raw_input("RA S: ")
+            PDD = raw_input("DIST D: ")
+            PDM = raw_input("DIST M: ")
+            STARS = raw_input("STARS: ")
+            FIELDS = raw_input("FIELDS: ")
+            DECM = str(90.0 - float(PDM))
+            publish.write("%s " % RAH)
+            publish.write("%s " % RAM)
+            publish.write("%s " % RAS)
+            publish.write("%s " % PDD)
+            publish.write("%s " % PDM)
+            publish.write("%s " % STARS)
+            publish.write("%s " % FIELDS)
+            publish.write("\n")
+             
+    break
+        

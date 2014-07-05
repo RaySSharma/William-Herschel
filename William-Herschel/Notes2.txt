@@ -1,0 +1,5 @@
+Match data against Hipparcos, map that, try to create a cross section
+Plot errors in relative distances against Hipparcos data
+Use actual magnitudes to see how powerful Herschel's telescope is
+
+Use errors to estimate extinction in regions of the sky

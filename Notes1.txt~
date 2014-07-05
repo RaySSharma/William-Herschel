@@ -1,0 +1,22 @@
+After entering data, visual ray lengths, modern coordinates (precession to modern epoch 2000)
+
+Double-check all data
+Precess all data
+Histogram of visual rays + their statistics
+Add axis labels
+Think about how to solidify it
+Full sky representation of data in galactic + equatorial
+Histogram of fields, # of stars, visual rays
+
+Allen Library, Herschel Journal
+Making a solid in Python
+
+Herschel Data Set:
+Add galactic coordinate shift (Precess to 1950)
+Histogram of deviation from the plane of observation (DEC = 0)
+Histogram of latitudes above galactic plane
+Precess Sag A*
+Add axes with Sun origin, going through Sag A*
+Histogram of visual rays + their statistics
+Add axis labels
+Manually count stars

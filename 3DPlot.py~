@@ -1,0 +1,5 @@
+from mpl_toolkits.pyplot import *
+from numpy import *
+import pdb
+
+finallist = genfromtxt('finallist.dat',dtype=[('ASTK',str_,16),('RA','f8'),('DEC','f8'),('VRAY','f8')],usecols=(4,9,10,11)

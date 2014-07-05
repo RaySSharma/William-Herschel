@@ -1,0 +1,20 @@
+Divide by cosine latitude for galactic long slices
+
+Overall 
+
+Herschel 3D Galaxy (add origin)
+Herschel Best Slice (REPRINT DIFF COLOUR :v )
+Movie?
+Plots
+
+Attach together points the plot of position position
+
+
+Plot * points (Y vs X)
+connect * points
+Double check galactic vs equatorial
+Movie * points 
+distribution (galactic Z) of * points
+use ^ to check how each distribution was
+Galactic Latitude dist for * data
+visual ray scale
